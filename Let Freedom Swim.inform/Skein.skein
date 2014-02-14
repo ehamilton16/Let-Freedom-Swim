@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x99a9000" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x9973160" />
+  <item nodeId="node-0x99a9000">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Let Freedom Swim
+An Interactive Fiction by Elasia Hamilton
+Release 1 / Serial number 140214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Bubble
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">NO</temporary>
+    <children>
+      <child nodeId="node-0x9973160" />
+    </children>
+  </item>
+  <item nodeId="node-0x9973160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+</Skein>
