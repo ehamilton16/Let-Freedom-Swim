@@ -1,28 +1,127 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x99a9000" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1815d40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x9973160" />
-  <item nodeId="node-0x99a9000">
+  <activeNode nodeId="node-0x1815d40" />
+  <item nodeId="node-0x1815d40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
+Well well. Look who&apos;s trapped in their own little bubble. Literally.
+
 Let Freedom Swim
 An Interactive Fiction by Elasia Hamilton
-Release 1 / Serial number 140214 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Bubble
+Im really not sure what to say about this. It&apos;s…a bubble?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">NO</temporary>
+    <children>
+      <child nodeId="node-0x1821740" />
+      <child nodeId="node-0xdb7a920" />
+    </children>
+  </item>
+  <item nodeId="node-0xdb7a920">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Cave
+Now with the bubble gone, there&apos;s no air around you. better find some way to breathe.
+
+You can see Conch Shell here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x94057b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x94057b0">
+    <command xml:space="preserve">take conch shell</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x115776a0" />
+      <child nodeId="node-0xdb95150" />
+    </children>
+  </item>
+  <item nodeId="node-0xdb95150">
+    <command xml:space="preserve">x conch shell</command>
+    <result xml:space="preserve">You see nothing special about Conch Shell.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">NO</temporary>
+    <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x9973160" />
+      <child nodeId="node-0x941cea0" />
     </children>
   </item>
-  <item nodeId="node-0x9973160">
+  <item nodeId="node-0x941cea0">
+    <command xml:space="preserve">take shell</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x9b7a450" />
+    </children>
+  </item>
+  <item nodeId="node-0x9b7a450">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cave
+afjfg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x115776a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1826070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1826070">
+    <command xml:space="preserve">take conch shell</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xe2569d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe2569d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Cave
+afjfg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x1821740">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
