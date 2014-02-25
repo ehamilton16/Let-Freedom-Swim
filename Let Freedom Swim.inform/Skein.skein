@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1815d40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1812520" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1815d40" />
-  <item nodeId="node-0x1815d40">
+  <activeNode nodeId="node-0x1812520" />
+  <item nodeId="node-0x1812520">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,21 +12,481 @@ Well well. Look who&apos;s trapped in their own little bubble. Literally.
 
 Let Freedom Swim
 An Interactive Fiction by Elasia Hamilton
-Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140225 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
-Bubble
-Im really not sure what to say about this. It&apos;s…a bubble?
+Cave Cell (in Bubble)
+fix
+
+You can see Mermaid Guard here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="11">NO</temporary>
+    <temporary score="120">NO</temporary>
     <children>
-      <child nodeId="node-0x1821740" />
-      <child nodeId="node-0xdb7a920" />
+      <child nodeId="node-0x9557170" />
+      <child nodeId="node-0x9593a70" />
+      <child nodeId="node-0xbd0eeb0" />
+      <child nodeId="node-0x1812430" />
+      <child nodeId="node-0x959fa50" />
+      <child nodeId="node-0xf2bb4c0" />
+      <child nodeId="node-0xf2a1e30" />
+      <child nodeId="node-0xf213290" />
+      <child nodeId="node-0xf28d340" />
+      <child nodeId="node-0xf265250" />
     </children>
   </item>
-  <item nodeId="node-0xdb7a920">
+  <item nodeId="node-0xf265250">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2c7bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2c7bb0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x95a6200" />
+    </children>
+  </item>
+  <item nodeId="node-0x95a6200">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf20b0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf20b0b0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x129979c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x129979c0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf7520" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf7520">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xbe01900" />
+    </children>
+  </item>
+  <item nodeId="node-0xbe01900">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x129687a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x129687a0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+back mofo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xbe213d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbe213d0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2b04c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2b04c0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x1205e250" />
+    </children>
+  </item>
+  <item nodeId="node-0x1205e250">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2d49d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2d49d0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+back mofo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x12940f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x12940f30">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf23bc60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf23bc60">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x12931140" />
+    </children>
+  </item>
+  <item nodeId="node-0x12931140">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0xf240e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xf240e10">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x129e6010" />
+      <child nodeId="node-0x120c4e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x120c4e90">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+back mofo
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="117">YES</temporary>
+    <children>
+      <child nodeId="node-0x129c3670" />
+    </children>
+  </item>
+  <item nodeId="node-0x129c3670">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="116">YES</temporary>
+  </item>
+  <item nodeId="node-0x129e6010">
+    <command xml:space="preserve">???</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+  </item>
+  <item nodeId="node-0xf28d340">
+    <command xml:space="preserve"> north</command>
+    <result xml:space="preserve">You&apos;ll have to get out of Bubble first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0xf213290">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You&apos;ll have to get out of Bubble first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf278a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf278a80">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x120706c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x120706c0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf3000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf3000">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf250560" />
+    </children>
+  </item>
+  <item nodeId="node-0xf250560">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0xf2a1e30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You&apos;ll have to get out of Bubble first.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xfcb48f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfcb48f0">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xfc900c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfc900c0">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">woo
+Cave Cell
+fix
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0xf2bb4c0">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+kbye.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xfc9f130" />
+    </children>
+  </item>
+  <item nodeId="node-0xfc9f130">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">woo
+Cave Cell
+fix
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2ed740" />
+      <child nodeId="node-0x129f81c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x129f81c0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Hallway
+You can see Treasure Chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="119">YES</temporary>
+  </item>
+  <item nodeId="node-0xf2ed740">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Hand Sanitizer (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2e0d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2e0d00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Hand Sanitizer (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x959fa50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Hand Sanitizer
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xf24f8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf24f8b0">
+    <command xml:space="preserve">x hand santizer</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2e0b80" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2e0b80">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+    <children>
+      <child nodeId="node-0xf24e1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf24e1d0">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">woo
+Cave Cell
+fix
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+  </item>
+  <item nodeId="node-0x1812430">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Cave
@@ -39,21 +499,21 @@ You can see Conch Shell here.
     <changed>NO</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x94057b0" />
+      <child nodeId="node-0x1812570" />
     </children>
   </item>
-  <item nodeId="node-0x94057b0">
+  <item nodeId="node-0x1812570">
     <command xml:space="preserve">take conch shell</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x115776a0" />
-      <child nodeId="node-0xdb95150" />
+      <child nodeId="node-0x1812750" />
+      <child nodeId="node-0x18125c0" />
     </children>
   </item>
-  <item nodeId="node-0xdb95150">
+  <item nodeId="node-0x18125c0">
     <command xml:space="preserve">x conch shell</command>
     <result xml:space="preserve">You see nothing special about Conch Shell.
 
@@ -62,10 +522,10 @@ You can see Conch Shell here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x941cea0" />
+      <child nodeId="node-0x1812670" />
     </children>
   </item>
-  <item nodeId="node-0x941cea0">
+  <item nodeId="node-0x1812670">
     <command xml:space="preserve">take shell</command>
     <result xml:space="preserve">You already have that.
 
@@ -74,10 +534,10 @@ You can see Conch Shell here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x9b7a450" />
+      <child nodeId="node-0x18126e0" />
     </children>
   </item>
-  <item nodeId="node-0x9b7a450">
+  <item nodeId="node-0x18126e0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Cave
 afjfg
@@ -87,7 +547,7 @@ afjfg
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x115776a0">
+  <item nodeId="node-0x1812750">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -96,10 +556,10 @@ afjfg
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x1826070" />
+      <child nodeId="node-0x1812840" />
     </children>
   </item>
-  <item nodeId="node-0x1826070">
+  <item nodeId="node-0x1812840">
     <command xml:space="preserve">take conch shell</command>
     <result xml:space="preserve">You already have that.
 
@@ -108,10 +568,10 @@ afjfg
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0xe2569d0" />
+      <child nodeId="node-0x1812890" />
     </children>
   </item>
-  <item nodeId="node-0xe2569d0">
+  <item nodeId="node-0x1812890">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Cave
 afjfg
@@ -121,7 +581,152 @@ afjfg
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x1821740">
+  <item nodeId="node-0xbd0eeb0">
+    <command xml:space="preserve">x bubble</command>
+    <result xml:space="preserve">Your container.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0xf27dbb0" />
+      <child nodeId="node-0x9c7a910" />
+    </children>
+  </item>
+  <item nodeId="node-0x9c7a910">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0xbe8a630" />
+    </children>
+  </item>
+  <item nodeId="node-0xbe8a630">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">wow
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x9c642a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9c642a0">
+    <command xml:space="preserve">x bubble</command>
+    <result xml:space="preserve">Your container.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0xf26c410" />
+    </children>
+  </item>
+  <item nodeId="node-0xf26c410">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Hand Sanitizer (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0xf295cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf295cc0">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">wow
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0xf27dbb0">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b2c470" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b2c470">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b4d8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b4d8c0">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">You feel nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xbe2c190" />
+    </children>
+  </item>
+  <item nodeId="node-0xbe2c190">
+    <command xml:space="preserve">x bubble</command>
+    <result xml:space="preserve">Your container.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x9593a70">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">omg
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd02940" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd02940">
+    <command xml:space="preserve">wear hand sanitizer</command>
+    <result xml:space="preserve">You put on Hand Sanitizer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2a2230" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2a2230">
+    <command xml:space="preserve">touch bubble</command>
+    <result xml:space="preserve">omg
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x9557170">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
