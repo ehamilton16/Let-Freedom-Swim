@@ -7,7 +7,7 @@ When play begins, say "You were having a wonderful time at the beach. Sun. Surf.
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		     [CAVE CELL]
 
-Cave Cell is a room. It is south of the Hallway. " It's a cold, damp cave currently being used as your holding cell. [If player is in bubble]You're currently stuck in a bubble. It's translucent, but for some reason you can't figure out how to pop the bubble. [end if][if mermaid guard is visible]Also, you see a bored-looking mermaid guard standing outside.[end if][if conch shell is visible]Some shells glitter on the floor, giving off the appearance of enchantment. Interestingly, bubble float up from their openings.[end if]"
+Cave Cell is a room. It is south of the Hallway. " It's a cold, damp cave currently being used as your holding cell. [If player is in bubble]You're currently stuck in a bubble. It's translucent, but for some reason you can't figure out how to pop the bubble. [end if][if mermaid guard is visible]Also, you see a bored-looking mermaid guard standing outside.[end if][if conch shell is visible]Some shells glitter on the floor, giving off the appearance of enchantment. Interestingly, bubble float up from their openings.[end if]To the north you see a light, probably leading elsewhere. Or down the hall. Who knows."
 			
 Hand Sanitizer is a wearable thing. It is carried by the player.
 
@@ -15,12 +15,12 @@ Understand "use [a wearable thing]" as wearing.
 
 Understand "pop [something]" as touching.
 
-[this is for the purpose of testing the scientist without needing to play through the game up to that point
+[this is for the purpose of testing the scientist without needing to play through the game up to that point]
 teleport is a wearable thing. It is carried by player.
 
 Instead of wearing teleport:
 	say "yo";
-	move the player to Laboratory.]
+	move the player to Laboratory.
 
 The description of the player is "You're hair is still a bit wet, and you're wearing an old shirt and swimtrunks. Not the best thing to get kidnapped in, but at least you're pretty comfortable. "
 
@@ -40,11 +40,14 @@ Before listing nondescript items when the player is in The Bubble,
 		if the conch shell is marked for listing,
 			change the conch shell to not marked for listing.
 			
+[this didnt work so yeah
+	
 Every turn when player is not in bubble:
 	if player is in Cave Cell:
-		if player is not wearing conch for four turns:
+		if player does not wear conch for four turns:
 			say "You can only hold your breath for so long, and without the bubble of air around you, there's no air for you to breathe. Your quest to escape fails as water fills your lungs.";
-		
+		if player is wearing conch:
+			say "".]
 
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		     [BUBBLE]
@@ -109,25 +112,29 @@ Guard Room is a room.
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		     [HALLWAY]
 		
-Hallway is a room. Hallway is north of Cave Cell. 
+Hallway is a room. Hallway is north of Cave Cell. "It's a long barren hallway, save for the rack of keys hung on the wall, and a small treasure chest next to a stairway leading up. [if keyshell is on rack of keys]A lone key glitters on the pegs of the rack.[end if]"
 
-Rack of Keys is a supporter in the Hallway.
+Rack of Keys is a supporter in the Hallway. The description is "A simple key rack, really. It's a bunch of wooden pegs[if keyshell is on rack of keys] with a key hanging off one of them[end if]."
 
 Before listing nondescript items when the player is in The Hallway,
 		if the Rack of Keys is marked for listing,
 			change the Rack of Keys to not marked for listing.
 
-KeyShell is a thing. Keyshell unlocks the Holding Area. The KeyShell is on the Rack of Keys.
+KeyShell is a thing. Keyshell unlocks the Holding Area. The KeyShell is on the Rack of Keys. The description is "A shiny bronze key with a shell on the handle. It's kind of cute, you guess. And very mermaid-y."
+
+Understand "key" as keyshell.
 
 Before listing nondescript items when the player is in The Hallway,
 		if the KeyShell is marked for listing,
 			change the KeyShell to not marked for listing.
 
-Uniform is a wearable thing. Uniform is in the Treasure Chest.
+Uniform is a wearable thing. Uniform is in the Treasure Chest. The description is "A uniform resembling that of the guard that was standing outside your cell. It probably won't fit, due to you being human and the outfit being tailored towards mermaids."
+
+Instead of wearing Uniform, say "You try to put it on, but there are one too few legholes, rendering it pretty unwearable. Maybe you could give it to a mermaid or something.".
 
 Chest Key is a thing. Chest Key unlocks the Treasure Chest. It is carried by the Mermaid Prisoner.
 
-Treasure Chest is a container. The Treasure Chest is closed and openable. The Treasure Chest is locked and lockable. Treasure Chest is in the Hallway. The description of the Treasure Chest is "wow so shiny."
+Treasure Chest is a container. The Treasure Chest is closed and openable. The Treasure Chest is locked and lockable. Treasure Chest is in the Hallway. The description of the Treasure Chest is "It's a[if the treasure chest is locked] locked[end if] wooden treasure chest. [if treasure chest is closed]You wonder what's inside?[end if]."
 
 Before listing nondescript items when the player is in The Hallway,
 		if the Treasure Chest is marked for listing,
@@ -136,7 +143,11 @@ Before listing nondescript items when the player is in The Hallway,
 	    [*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		     [MERMAID PRISONER]
 		
-Prison Cell is a room. Prison Cell is north of Hallway.
+Prison Cell is a room. Prison Cell is north of Hallway. "It's a cold and dark Prison Cell. [if holding area is closed]You stand on just the other side of the bars.[end if] [if mermaid prisoner is in holding area]You see a sad-looking mermaid prisoner inside.[end if] [if holding area is locked]The lock is dull and scratched, but holds firm.[end if]"
+
+Before listing nondescript items when the player is in Prison Cell,
+		if the Holding Area is marked for listing,
+			change the Holding Area to not marked for listing.
 
 Holding Area is a transparent container in the Prison Cell. The printed name is "cell". Understand "cell" as the Holding Area. Holding Area is locked and lockable, and closed and openable. 
 
@@ -193,22 +204,20 @@ A prisoner behavior rule when the location of prisoner is not the location of pl
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		     [GR8 HALL]
 		
-Great Hall is a room. Great Hall is up of Hallway. The description is " "
+Great Hall is a room. Great Hall is up of Hallway. "It's a brightly lit central area of what appears to be a castle, as far as you can tell. To the east is a outdoor hallway, I guess you could call it a Balcony."
 
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		[Balcony]
 
-Balcony is a room. Balcony is east of Great Hall.
+Balcony is a room. Balcony is east of Great Hall. "It's really just an open hallway. To the west is what appears to be a Laboratory."
 
 	[*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		[Laboratory]
-Laboratory is a room. Laboratory is west of Balcony. The description of the Laboratory is "lab"
-
+Laboratory is a room. Laboratory is west of Balcony. The description of the Laboratory is "It's a room full of SCIENCE![if Scientist is in Laboratory] You see a scientist here, doing science.[end if] There are pictures and diagrams littering the wall of various things. Some are mechanical inventions, others are anatomical diagrams of both humans and mermaids. It's a little creepy."
+			
 A thing can be known or unknown. Chatterscarf and sunscreen is known.
 
 Labcoat is a wearable thing. The description of the labcoat is "A plain white labcoat."
-
-
 
 Understand the commands "ask [text]" as something new.
 
@@ -287,12 +296,6 @@ Instead of asking Scientist about "Garage":
 	otherwise:
 		say "You switch between pointing to the floor and towards the stairs nearby. The scientist looks you, then the stairs, then the floor. 'Glub? Glub Glubb.' You sigh."
 
-Instead of asking Scientist about "secret knock":
-	if the player is wearing chatterscarf:
-		say "The garage is where most of our research is conducted. We have all our new devices downstairs in the garage.";
-	otherwise:
-		say "You make a gesture that looks like you're knocking on a door and look at him expectantly. He looks at you. He blubs in a confused manner."
-
 Instead of giving sunglasses to scientist:
 	say "You hand the cheap shades over to the scientist. He tries to put them on his head. It falls off. You try to tell him it goes on his face, but it doesn't look like he can understand you."
 
@@ -326,8 +329,18 @@ Instead of giving hand sanitizer to Scientist:
 Instead of taking chatterscarf:
 	say "That seems to belong to the Scientist. Maybe you can give him something to change his mind."
 
+Instead of going south:
+	if player is not wearing chatterscarf:
+		say "something about the scientist gives you the impression that he has vital information regarding your quest to freedom. You feel as though you cannot leave without at least attempting a conversation.";
+		stop the action.
+
 [*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~]
 		[Garage]
 
-Garage is a room. Garage is south of Laboratory. 
+Garage is a room. Garage is south of Laboratory. "It's a large empty garage, save for a large spherical vehicle."
 
+
+An Every Turn Rule:
+	if player is in Garage:
+		say "You climb into the contraption and close the hatch above you. The water drains out and is replaced with oxygen. A flashing green button catches your attention and as you press it, a whoosh sounds from the vehicle and you are shot upwards, back to the land. Freedom!";
+		end the game in victory.
